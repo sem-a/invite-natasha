@@ -1,6 +1,6 @@
 async function fetchMessages() {
   try {
-    const response = await fetch("http://localhost:3000/");
+    const response = await fetch("https://sem-a-invite-natasha-server-6f14.twc1.net/");
     if (!response.ok) {
       throw new Error("Ошибка сети");
     }

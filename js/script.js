@@ -12,7 +12,7 @@ button.addEventListener("click", (e) => {
     return 0;
   }
 
-  fetch("http://localhost:3000/add", {
+  fetch("https://sem-a-invite-natasha-server-6f14.twc1.net/add", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
