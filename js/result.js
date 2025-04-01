@@ -40,7 +40,7 @@ async function fetchMessages() {
 
     displayMessages(checkedFalse);
 
-    await fetch("http://localhost:3000/checked", { method: "PUT" });
+    await fetch("https://sem-a-invite-natasha-server-6f14.twc1.net/checked", { method: "PUT" });
   } catch (error) {
     console.error("Произошла ошибка:", error);
   }
