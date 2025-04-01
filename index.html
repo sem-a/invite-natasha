@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+
+    <title>Наташе 40 с хвостиком</title>
+  </head>
+  <body>
+    <section class="one">
+      <div class="bg_one">
+        <img src="./img/serdce.png" alt="verh" class="img_up" />
+        <img src="./img/serdce_down.png" alt="nizh" class="img_down" />
+      </div>
+      <div class="container">
+        <div class="one_center">
+          <div class="title time"><h2>17:00</h2></div>
+          <div class="title date"><h2>26.04.2025</h2></div>
+          <img src="./img/catonok.png" alt="catonok" class="kotonok" />
+        </div>
+      </div>
+    </section>
+
+    <section class="two">
+      <div class="container">
+        <div class="perepiska">
+          <div class="message my">алло, я жду вас на тусовке</div>
+          <div class="message you">где?</div>
+          <div class="message my">г. Гатчина, ул. Северная, д. 20</div>
+          <div class="message you">когда?</div>
+          <div class="message my">суббота, 26 апреля в 17:00</div>
+        </div>
+      </div>
+      <img src="./img/natasha.png" alt="natasha" class="natasha" />
+    </section>
+
+    <section class="three">
+      <div class="container">
+        <div class="message my">
+          обязательно возьмите с собой купальник, полотенце и тапочки
+        </div>
+        <div class="three_img">
+          <img src="./img/bassein.png" alt="bassein" />
+        </div>
+        <div class="message my">
+          я буду рада, если в твоей одежде будут присутствовать цвета
+        </div>
+        <div class="dress">
+          <div class="circle d1"></div>
+          <div class="circle d2"></div>
+          <div class="circle d3"></div>
+          <div class="circle d4"></div>
+        </div>
+        <div class="run">
+          <img id="gif" src="./img/run.gif" alt="run" />
+          <div class="message my">пожалуйста, заполни эту анкету для меня</div>
+        </div>
+        <div class="message my">напиши свое имя и тех, кто придет с тобой</div>
+        <div class="send">
+          <input id="name" type="text" class="input" placeholder="сообщение" />
+          <button id="btn"><img src="./img/send.png" alt="send" /></button>
+        </div>
+        <div id="message" class="message my hidden"></div>
+      </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
