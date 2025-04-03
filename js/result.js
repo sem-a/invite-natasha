@@ -1,6 +1,6 @@
 async function fetchMessages() {
   try {
-    const response = await fetch("https://sem-a-invite-natasha-server-6f14.twc1.net/");
+    const response = await fetch("https://sem-a-invite-natasha-server-0fb7.twc1.net/");
     if (!response.ok) {
       throw new Error("Ошибка сети");
     }
@@ -40,7 +40,7 @@ async function fetchMessages() {
 
     displayMessages(checkedFalse);
 
-    await fetch("https://sem-a-invite-natasha-server-6f14.twc1.net/checked", { method: "PUT" });
+    await fetch("sem-a-invite-natasha-server-0fb7.twc1.net/checked", { method: "PUT" });
   } catch (error) {
     console.error("Произошла ошибка:", error);
   }
